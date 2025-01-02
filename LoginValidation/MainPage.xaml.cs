@@ -1,5 +1,5 @@
 ﻿namespace LoginValidation;
-
+//Dane do logowania są poprawne
 public partial class MainPage : ContentPage
 {
     string validUsername = "admin";
