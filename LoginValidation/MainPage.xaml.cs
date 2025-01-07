@@ -1,5 +1,5 @@
 ﻿namespace LoginValidation;
-//Dane do logowania są poprawne
+//Sprawdzenie czy dane do logowania są poprawnie sprawdzane.
 public partial class MainPage : ContentPage
 {
     string validUsername = "admin";
@@ -7,7 +7,7 @@ public partial class MainPage : ContentPage
 
     public MainPage()
     {
-        InitializeComponent(); // Ensure this exists and is working
+        InitializeComponent();
     }
 
     private void OnLoginClicked(object sender, EventArgs e)
